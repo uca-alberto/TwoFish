@@ -48,6 +48,15 @@
       <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.3\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="nsoftware.IPWorksEncrypt, Version=20.0.7538.0, Culture=neutral, PublicKeyToken=cdc168f89cffe9cf, processorArchitecture=MSIL">
+      <HintPath>..\packages\nsoftware.IPWorksEncrypt.20.0.7538\lib\net40\nsoftware.IPWorksEncrypt.dll</HintPath>
+    </Reference>
+    <Reference Include="nsoftware.IPWorksEncrypt.Design, Version=20.0.0.0, Culture=neutral, PublicKeyToken=cdc168f89cffe9cf, processorArchitecture=MSIL">
+      <HintPath>..\packages\nsoftware.IPWorksEncrypt.20.0.7538\lib\net40\nsoftware.IPWorksEncrypt.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="nsoftware.IPWorksEncrypt.System, Version=20.0.7538.0, Culture=neutral, PublicKeyToken=cdc168f89cffe9cf, processorArchitecture=MSIL">
+      <HintPath>..\packages\nsoftware.IPWorksEncrypt.20.0.7538\lib\net40\nsoftware.IPWorksEncrypt.System.dll</HintPath>
+    </Reference>
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -213,12 +222,14 @@
     </Compile>
     <Compile Include="Site.Mobile.Master.cs">
       <DependentUpon>Site.Mobile.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Site.Mobile.Master.designer.cs">
       <DependentUpon>Site.Mobile.Master</DependentUpon>
     </Compile>
     <Compile Include="ViewSwitcher.ascx.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="ViewSwitcher.ascx.designer.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>

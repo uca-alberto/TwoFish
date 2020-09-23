@@ -11,17 +11,27 @@
         <div class="col-md-4">
           <label>Encriptar Mensaje</label>
             <asp:TextBox runat="server" ID="TxtMessage" CssClass=""/>
-            <asp:Button runat="server" ID="BtnEncriptar" CssClass="btn-succes" OnClick="BtnEncriptar_Click"/>
+            <asp:Button runat="server" ID="BtnEncriptar" CssClass="btn-success" OnClick="BtnEncriptar_Click" Text="Encriptar"/>
         </div>
-        <div class="col-md-4">
+    </div>
+	<br />
+	<br />
+
+	<div class="row">
+		 <div class="col-md-4">
           <label>Mensaje Encriptado</label>
            <textarea runat="server" id="TxtAreaEncriptado"/>
-            <asp:Button runat="server" ID="BtnEnviar" CssClass="btn-succes" OnClick="BtnEnviar_Click" />
+            <asp:Button runat="server" ID="BtnEnviar" CssClass="btn-info" OnClick="BtnEnviar_Click" Text="Enviar" />
         </div>
-        <div class="col-md-4">
+	</div>
+	<br />
+	<br />
+
+	<div class="row">
+		<div class="col-md-4">
            <label>Respuesta de Peticion</label>
             <asp:Label runat="server" ID="LbRespuesta"/>
         </div>
-    </div>
+	</div>
 
 </asp:Content>
