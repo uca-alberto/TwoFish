@@ -31,6 +31,15 @@ namespace TwoFishExample {
         protected global::System.Web.UI.WebControls.Button BtnEncriptar;
         
         /// <summary>
+        /// Control btnDesEncriptar.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnDesEncriptar;
+        
+        /// <summary>
         /// Control TxtAreaEncriptado.
         /// </summary>
         /// <remarks>
@@ -38,15 +47,6 @@ namespace TwoFishExample {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlTextArea TxtAreaEncriptado;
-        
-        /// <summary>
-        /// Control BtnEnviar.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button BtnEnviar;
         
         /// <summary>
         /// Control LbRespuesta.
