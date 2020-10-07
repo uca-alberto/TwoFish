@@ -129,3 +129,7 @@ C:\Users\bmora\Documents\GitHub\TwoFish\TwoFishExample\TwoFishExample\bin\es\Mic
 C:\Users\bmora\Documents\GitHub\TwoFish\TwoFishExample\TwoFishExample\obj\Debug\TwoFishExample.csprojResolveAssemblyReference.cache
 C:\Users\bmora\Documents\GitHub\TwoFish\TwoFishExample\TwoFishExample\obj\Debug\TwoFishExample.dll
 C:\Users\bmora\Documents\GitHub\TwoFish\TwoFishExample\TwoFishExample\obj\Debug\TwoFishExample.pdb
+C:\Users\alber\Documents\GitHub\TwoFish\TwoFishExample\TwoFishExample\bin\BouncyCastle.Crypto.dll
+C:\Users\alber\Documents\GitHub\TwoFish\TwoFishExample\TwoFishExample\bin\nsoftware.IPWorksEncrypt.Design.dll
+C:\Users\alber\Documents\GitHub\TwoFish\TwoFishExample\TwoFishExample\bin\nsoftware.IPWorksEncrypt.dll
+C:\Users\alber\Documents\GitHub\TwoFish\TwoFishExample\TwoFishExample\bin\nsoftware.IPWorksEncrypt.System.dll
